@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Challenge</title>
+</head>
+
+<body>
+    <h1>User Registertion Form</h1>
+    <form>
+        Fisrt Name: <input type="text" name="firstname"><br><br>
+        Last Name:<input type="test" name="lastname"><br><br>
+        Password: <input type="password" name="password"><br><br>
+        Bio: <textarea name="bio" rows="5" cols="50"></textarea><br><br>
+        <fieldset>
+            <legend>Gender:</legend>
+            <input type="radio" name="gender" value="male">
+            <lable>Male</lable>
+            <br>
+            <input type="radio" name="gender" value="Female">
+            <lable>Female</lable>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Interest:</legend>
+            <input type="checkbox" name="interest" value="music">
+            <lable>music</lable><br>
+            <input type="checkbox" name="interest" value="sports">
+            <lable>sports</lable><br>
+            <input type="checkbox" name="interest" value="reading">
+            <lable>reading</lable><br>
+        </fieldset>
+        <br><br>
+        Country:
+        <select value="country">
+            <option value="United States">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Austrilia</option>
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+        Peferred Colours:
+        <select name="Colours" size="3" multiple="multiple">
+            <option value="red">Red</option>
+            <option value="green">Blue</option>
+            <option value="blue">Green</option>
+            <option value="yellow">Yellow</option>
+        </select>
+        <br><br>
+        Profile Picture: <input type="file" name="profilepic">
+        <br><br>
+        Birthdate: <input type="date" name="birthdate">
+        <br><br>
+        Email:<input type="email" name="email">
+        <br><br>
+        Website:<input type="url" name="website">
+        <br><br>
+        Search:<input type="search" name="search">
+        <br><br>
+        <button>Submit</button>
+    </form>
+
+
+</body>
+
+</html>
